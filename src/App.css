@@ -1,0 +1,39 @@
+* {
+  margin:  0;
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+.app_signin{
+  display: flex;
+  flex-direction: column;
+}
+.app_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app_headerImage {
+  height: 4rem;
+  object-fit: contain;
+}
+.post {
+  background-color: white;
+  max-width: 500px;
+  border: 1px solid lightgray;
+}
+.post_image {
+  width: 100%;
+  object-fit: contain;
+}
+.post_header{
+  display: flex;
+  align-items: center; 
+  padding: 20px 10px;
+}
+.post_avatar{
+  margin-right: 0.5em;
+  margin-left: 0.25em;
+}
